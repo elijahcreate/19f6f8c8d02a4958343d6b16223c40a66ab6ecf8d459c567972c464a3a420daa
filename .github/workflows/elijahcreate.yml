@@ -1,10 +1,8 @@
 name: elijahcreate
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
-
+    - cron: '1 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,20 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: elijahcreate
         env:
-          mqwsk39099: ${{ secrets.mqwsk39099 }}
+          kfk41069: ${{ secrets.kfk41069 }}
         run: |
-          echo $mqwsk39099 | jq -r .dsj85 | /bin/bash
-          echo $dmv95265 | jq -r .jm1 | /bin/bash
-          echo $mb0 | jq -r .ogns51 | /bin/bash
-          echo $z83729 | jq -r .ell99 | /bin/bash
-          echo $u03 | jq -r .u6040 | /bin/bash
-          echo $aujp4150 | jq -r .c37020 | /bin/bash
-          echo $fcrmw49 | jq -r .nkewv24556 | /bin/bash
-          echo $fzujc7760 | jq -r .gfu33 | /bin/bash
-          echo $x19916 | jq -r .c8838 | /bin/bash
-          echo $phvsk9 | jq -r .zaym78098 | /bin/bash
-          echo $uo73934 | jq -r .x58 | /bin/bash
-          echo $bghg042 | jq -r .o380 | /bin/bash
-          echo $vkkd8 | jq -r .gndh26400 | /bin/bash
-          echo $uqw081 | jq -r .u779 | /bin/bash
+          echo $kfk41069 | jq -r .xpj6 | /bin/bash
+          echo $k56 | jq -r .vscd352 | /bin/bash
+          echo $qagrr7 | jq -r .ds1 | /bin/bash
+          echo $mchg35451 | jq -r .boiev552 | /bin/bash
+          echo $p70785 | jq -r .xgl263 | /bin/bash
+          echo $sny1 | jq -r .i5717 | /bin/bash
+          echo $olnpm45 | jq -r .qzm594 | /bin/bash
 
